@@ -1,0 +1,16 @@
+.list {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    max-width: 100%;
+    padding-left: 20px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(212, 206, 206);
+}
+.list__header {
+    color:black;
+}
+.list__Item {
+    padding-left: 20px;
+    list-style-type: circle;
+}

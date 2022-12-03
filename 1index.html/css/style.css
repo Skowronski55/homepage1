@@ -1,0 +1,230 @@
+html {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+/* block body*/
+.body {
+    font-family: "Lato", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 1000px;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+.dark {
+    color: #eee;
+    background: #222;
+}
+/* block header*/
+.header {
+    margin: 0 auto;
+    max-width:100%;
+    text-align:center; 
+}
+.header__heading {
+    font-family: 'Lato', sans-serif;
+    color: darkblue;
+    max-width: 100%;
+    border-width: 0px 0px 10px 10px;
+    border-style: solid;
+    border-color: darkblue;
+    outline-style: solid;
+    outline-color: darkblue;
+    outline-offset: 5px;
+    border-radius: 0px 0px 0px 20px;
+    text-shadow: 1px 10px 15px #2e2d2d;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: rgb(212, 206, 206);    
+    text-align:center;     
+}
+.header_box {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    background-color: rgb(212, 206, 206);
+    padding: 20px;
+    margin: 20px;
+    max-width: 100%;
+    padding-left: 90px;
+    text-align: center; 
+}
+.header__boxSentence {
+    color: blue;
+    text-align:center;
+}
+.header__image {
+    border: 10px double darkblue;
+    border-radius: 18px;
+}
+.header__button {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    background-color: aliceblue;
+    padding: 20px 14px 20px 14px;;
+    border: 2px solid black;
+    outline-width: 2px;
+    outline-style: solid;
+    outline-color:darkblue;
+    border-radius: 18px;
+    margin: 0 auto;
+}
+.header__buttonHeading {
+    margin-top: 40px;
+    
+}
+.header__buttonImage {
+    margin-top: 40px;
+ }
+.header__buttonColor {
+    margin-top: 40px;
+    margin-bottom: 40px;  
+}
+.header__sentence {
+    color:blue;
+}
+.image {
+    border: 10px double darkblue;
+    border-radius: 18px;
+}
+.listItem {
+    margin: 5px 0;
+    padding-left: 20px ;
+}
+/*block navigation*/
+.navigation {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: rgb(212, 206, 206);
+    max-width: 100%;
+    margin: 20px;
+}
+.navigation__list{
+    list-style: none;
+    padding-left: 20px;
+}
+.navigation__item {
+    margin: 5px;
+}
+.navigation__link {
+    text-decoration: none;
+}
+/*block article*/
+.article {
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(212, 206, 206);
+    color: black;
+    padding: 20px; 
+    max-width: 100%;
+    margin: 20px ;  
+    border: 1px solid #ccc;
+    max-width: 100%;
+    margin: 20px;
+}
+.article__header {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    margin: 20px;
+} 
+.article__highlightedText {
+    font-family: 'Lato', sans-serif;
+    color: hwb(4 2% 26%);  
+}
+.article__link {
+    color: darkblue;
+    text-decoration: none;
+}
+/* block table*/
+.article__tableContainer {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    background-color: rgb(212, 206, 206);
+    padding: 20px;
+    margin: 20px;
+    max-width: 100%;
+    padding-left: 90px;
+    text-align: center; 
+}
+.dark1 {
+    color:#eee;
+    background: black;
+}
+.table {
+    font-family: "Lato", sans-serif;
+    border-collapse: collapse;
+    max-width: 100%;
+    color: black;
+    border-width: 3px 0px 3px 3px;
+}
+.table__caption {
+    margin-bottom: 20px;
+}
+.table__Cell {
+    border: 1px solid #ccc; 
+    padding: 20px; 
+    vertical-align: middle;
+    text-align: center; 
+}
+.table__Header {
+    background-color: grey;
+    color: white;
+    font-weight: normal;
+}
+.table__Row:nth-child(even) {
+    background: #eee;
+}
+.table__Row:hover {
+    background: #ddd;
+}
+/*block list*/
+.list {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    max-width: 100%;
+    padding-left: 20px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(212, 206, 206);
+}
+.list__header {
+    color:black;
+}
+.list__Item {
+    padding-left: 20px;
+    list-style-type: circle;
+}
+/*block footer*/
+.footer {
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(212, 206, 206);
+    color: black;
+    padding: 20px; 
+    max-width: 100%;
+    margin: 20px ;
+}
+.footer__link {
+    color: darkblue;
+    text-decoration: none;
+}
+.footer__linkVisited {
+    color: darkblue;
+}
+.footer__linkFocus {
+    outLine: 2px solid currentColor;
+}
+.footer__linkHover {
+    color: red;
+    border-bottom: 1px solid;
+    outline: none;
+}
+.footer__linkActive {
+    color: brown;
+}
+
+
+
+
+
+
